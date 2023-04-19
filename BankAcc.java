@@ -9,8 +9,12 @@ public class BankAcc{
 	public void GetBal(){
 		System.out.println("Account Balance is " + AccBal);
 	}
-	
-	
+	public void GetAccNo(){
+		System.out.println("Account Number is " + BankAccNo);
+	}
+	public void GetName(){
+		System.out.println("Account Holder Name is " + AccHolderName);
+	}
 
 	/*public void GetDetails() {
 		System.out.println("Account Balance is " + AccBal);
@@ -19,8 +23,12 @@ public class BankAcc{
 		// Creating Object
 		BankAcc Balence = new BankAcc();
 		Balence.GetBal();
-		
+		BankAcc Number = new BankAcc();
+		Number.GetAccNo();
+		BankAcc Name = new BankAcc();
+		Name.GetName();
 
 	}
 
 }
+
